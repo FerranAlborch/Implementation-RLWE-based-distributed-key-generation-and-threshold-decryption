@@ -15,7 +15,7 @@ gcc decryption_sim.c functions.c -lm -lgmp -lssl -lcrypto -lflint -lmpfr -o decr
 gcc keygen_sim.c functions.c -lm -lgmp -lssl -lcrypto -lflint -lmpfr -o keygen.out -O2
 ./keygen.out n u t
 ```
-respectively, where n, u, t are the non-negative integer values you want to give to these parameters.
+respectively, where n, u, t are the non-negative integer values you want to give to these parameters. To run the codes a large number of times the use of a python script is advisable.
 
 To be able to run these programs the following libraries are needed:
 - FLINT (Fast Library for Number Theory), found [here](https://www.flintlib.org/downloads.html). The version used is 2.7.1. FLINT requires two other libraries:
