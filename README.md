@@ -23,6 +23,8 @@ To be able to run these programs the following libraries are needed:
   - MPFR, found [here](https://www.mpfr.org/). The version used is 4.1.0.
 - OpenSSL, found [here](https://www.openssl.org/). The version used is 1.1.1.
 
-<br/><br/>
+<br/>
+There are also two files that allow for the parameter analysis in python. One is an ipynb file and the other is needed to be able to execute the code in the notebook.
 
-There
+<br/>
+WARNING: This is an academic proof of concept, and in particular has not received code review. This implementation is NOT ready for any type of production use.
