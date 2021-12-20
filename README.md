@@ -1,4 +1,4 @@
-# RLWE-implementation
+# Implementation: RLWE-based distributed key generation and threshold decryption
 
 This repository contains source code of the protocols from the paper FALTA submitted to FALTA by FALTA.
 
