@@ -1,6 +1,6 @@
 # Implementation: RLWE-based distributed key generation and threshold decryption
 
-This repository contains source code of the protocols from the paper RLWE-based distributed key generation and threshold decryption submitted to IEEE Transactions on Parallel and Distributed Systems by Ferran Alborch, Ramiro Martínez and Paz Morillo.
+This repository contains source code of the protocols from the paper RLWE-based distributed key generation and threshold decryption by Ferran Alborch, Ramiro Martínez and Paz Morillo.
 
 ## Run
 
