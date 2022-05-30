@@ -205,6 +205,11 @@ int main(int argc, char *argv[]) {
 	mpz_t interdec;
 	mpz_init(interdec);
 	mpz_tdiv_q_ui(interdec,q,4);
+	mpz_sub(interdec,interdec,kappa);
+	mpz_mul(auxz,kappa,kappa);
+	mpz_mul_si(auxz,auxz,2*n*u);
+	mpz_sub(interdec,interdec,auxz);
+	mpz_tdiv_q_ui(interdec,interdec,binomt);
 	//gmp_printf("interdec = %Zd\n",interdec);
 	
 	mpf_clear(auxf);
